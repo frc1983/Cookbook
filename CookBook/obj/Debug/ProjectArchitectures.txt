@@ -1,0 +1,1 @@
+C:\Projetos\CookBook\CookBook\CookBook.csproj;neutral

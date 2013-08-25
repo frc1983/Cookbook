@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="128ee7c2-a120-4305-81d8-bde18e0837b8" Publisher="CN=fabio_000" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>CookBook</DisplayName>
+    <PublisherDisplayName>fabio_000</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CookBook.App">
+      <VisualElements DisplayName="CookBook" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Seu aplicativo de receitas." ForegroundText="light" BackgroundColor="#E4E4E4">
+        <DefaultTile ShowName="allLogos" ShortName="CookBook" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#E4E4E4" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
