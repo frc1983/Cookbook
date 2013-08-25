@@ -1,5 +1,7 @@
 ~
 build/
+CookBook/[Bb]in
+CookBook/obj
 [Bb]in
 [Dd]ebug*/
 obj/
