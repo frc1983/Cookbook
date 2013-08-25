@@ -1,7 +1,7 @@
 ~
 build/
 CookBook/[Bb]in
-CookBook/obj
+CookBook/obj/
 [Bb]in
 [Dd]ebug*/
 obj/
@@ -35,3 +35,4 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.zip
 *.[Pp]ublish.xml
+pingme.xml
